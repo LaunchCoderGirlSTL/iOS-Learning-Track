@@ -9,5 +9,6 @@
 ## Prep work
 
 ## In-class work
+Here is the video of what we covered in class.
 
 ## Assignments

@@ -4,10 +4,11 @@
 * Database Schema
 * Relationships between database objects
 * Converting Core Data objects to and from other classes/structs/data types
-* Migrating a Core Data database with a schema change 
+* Migrating a Core Data database with a schema change
 
 ## Prep work
 
 ## In-class work
+Here is the video of what we covered in class.
 
 ## Assignments

@@ -4,10 +4,11 @@
 * What is Core Data (continued)? (What is it actually vs. how most people end up using it)
 * Starting an app from the ground up with Core Data
 * Adding Core Data to an already existing App
-* Simple read/writes to SQLite using Core Data 
+* Simple read/writes to SQLite using Core Data
 
 ## Prep work
 
 ## In-class work
+Here is the video of what we covered in class.
 
 ## Assignments
