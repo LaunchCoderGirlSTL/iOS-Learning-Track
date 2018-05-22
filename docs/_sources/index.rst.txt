@@ -6,7 +6,7 @@ Lessons
 =======
 
 .. toctree::
-   :maxdepth: 20
+   :maxdepth: 1
 
    lessons/lesson01
    lessons/lesson02
@@ -32,13 +32,21 @@ Lessons
    lessons/lesson22
    lessons/lesson23
 
+Assignments
+===========
+
+.. toctree::
+   :maxdepth: 1
+
+   assignments/simple-tic-tac-toe 
+
 Resources
 =========
 
 .. toctree::
    :maxdepth: 1
 
-   resources/resources.md
+   resources/resources
 
 .. _@LaunchCodeEducation: https://github.com/launchcodeeducation
 .. _@LaunchCoderGirl: https://github.com/LaunchCoderGirlSTL

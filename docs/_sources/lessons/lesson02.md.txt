@@ -15,4 +15,4 @@
 Here is the video of what we covered in class.
 
 ## Assignments
-Complete the `Simple Tic-Tac-Toe` assignment on Canvas.
+Complete the [Simple Tic-Tac-Toe](../../assignments/simple-tic-tac-toe.html) assignment and submit it on Canvas.
