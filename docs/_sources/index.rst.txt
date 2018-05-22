@@ -19,6 +19,14 @@ Lessons
    lessons/lesson13
    lessons/lesson14
    lessons/lesson15
+   lessons/lesson16
+   lessons/lesson17
+   lessons/lesson18
+   lessons/lesson19
+   lessons/lesson20
+   lessons/lesson21
+   lessons/lesson22
+   lessons/lesson23
 
 .. _@LaunchCodeEducation: https://github.com/launchcodeeducation
 .. _@LaunchCoderGirl: https://github.com/LaunchCoderGirlSTL
