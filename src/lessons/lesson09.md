@@ -11,3 +11,4 @@
 Here is the video of what we covered in class.
 
 ## Assignments
+Complete the Container View Flashcard App assignment in Canvas.

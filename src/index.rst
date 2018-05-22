@@ -28,6 +28,14 @@ Lessons
    lessons/lesson22
    lessons/lesson23
 
+Resources
+=========
+
+.. toctree::
+   :maxdepth: 20
+
+   resources/resources.md
+
 .. _@LaunchCodeEducation: https://github.com/launchcodeeducation
 .. _@LaunchCoderGirl: https://github.com/LaunchCoderGirlSTL
 .. _curriculum docs: https://education.launchcode.org/curriculum-docs/

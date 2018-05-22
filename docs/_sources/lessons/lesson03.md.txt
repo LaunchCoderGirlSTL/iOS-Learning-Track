@@ -10,3 +10,4 @@
 Here is the video of what we covered in class.
 
 ## Assignments
+Complete the Flash Card App assignment in Canvas.

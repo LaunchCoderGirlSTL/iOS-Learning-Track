@@ -11,3 +11,4 @@
 Here is the video of what we covered in class.
 
 ## Assignments
+Complete the Collection View Flash Card App assignment on Canvas. If you haven't yet, complete the My First Swift Network Call assignment as well.
