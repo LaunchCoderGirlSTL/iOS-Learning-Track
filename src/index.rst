@@ -38,7 +38,13 @@ Assignments
 .. toctree::
    :maxdepth: 1
 
-   assignments/simple-tic-tac-toe 
+   assignments/simple-tic-tac-toe
+   assignments/flash-card-app
+   assignments/swift-syntax
+   assignments/autolayout
+   assignments/my-first-swift-network-call
+   assignments/collection-view-flashcard-app
+   
 
 Resources
 =========
