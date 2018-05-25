@@ -11,4 +11,4 @@
 Here is the video of what we covered in class.
 
 ## Assignments
-Complete the Swift Syntax assignment on Canvas.
+Complete the [Swift Syntax](../../assignments/swift-syntax.html) assignment and submit it on Canvas.

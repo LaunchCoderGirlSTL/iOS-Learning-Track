@@ -43,8 +43,8 @@ Assignments
    assignments/swift-syntax
    assignments/autolayout
    assignments/my-first-swift-network-call
-   assignments/collection-view-flashcard-app
-   
+   assignments/collection-view-flash-card-app
+
 
 Resources
 =========

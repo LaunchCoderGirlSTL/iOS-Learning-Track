@@ -18,8 +18,8 @@
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Objective" href="flash-card-app.html" />
-    <link rel="prev" title="Lesson 23: Create Your Own App from the Ground Up" href="../lessons/lesson23.html" />
+    <link rel="next" title="Objectives" href="collection-view-flash-card-app.html" />
+    <link rel="prev" title="Objectives" href="autolayout.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -218,9 +218,9 @@
 </li>
 </ul>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Objectives</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#requirements">Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#hints">Hints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simple-tic-tac-toe.html">Objectives</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simple-tic-tac-toe.html#requirements">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simple-tic-tac-toe.html#hints">Hints</a></li>
 <li class="toctree-l1"><a class="reference internal" href="flash-card-app.html">Objective</a></li>
 <li class="toctree-l1"><a class="reference internal" href="flash-card-app.html#requirements">Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="swift-syntax.html">Objectives</a></li>
@@ -228,7 +228,7 @@
 <li class="toctree-l1"><a class="reference internal" href="swift-syntax.html#hints">Hints</a></li>
 <li class="toctree-l1"><a class="reference internal" href="autolayout.html">Objectives</a></li>
 <li class="toctree-l1"><a class="reference internal" href="autolayout.html#real-app-example">Real App Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="my-first-swift-network-call.html">Objectives</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Objectives</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collection-view-flash-card-app.html">Objectives</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collection-view-flash-card-app.html#requirements">Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collection-view-flash-card-app.html#hints">Hints</a></li>
@@ -269,35 +269,19 @@
       
   <div class="section" id="objectives">
 <h1>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li>Become comfortable with making IBActions and IBOutlets from the Storyboard to the associated view controller</li>
-<li>Become familiar with UIViews, UILabels, and UIButtons</li>
-<li>Use optional unwrapping using guard statements</li>
-<li>Become familiar with type casting between Strings and Ints</li>
+<p>The class shows how to do a simple “GET” HTTP call in Swift. Use a public API to fetch, parse, and display data on a device/simulator. You will have to use the documentation the public API provides to figure out the URL to pass into the URLSession. It must:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Include a table view with dynamic cells</li>
+<li>Include a segue to a new view controller</li>
+<li>Make two network calls (not restricting to GET calls, but that’s what was taught)</li>
+<li>Display the parsed data from both calls</li>
+<li>Use Autolayout</li>
 </ul>
-</div>
-<div class="section" id="requirements">
-<h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li>A Tic-Tac-Toe Board that display correctly on 1 type of iOS Device</li>
-<li>9 Buttons with text that rotate between “”, “X”, and “O” when pressed</li>
-<li>The 9 buttons should all be connected to one function that performs the action</li>
-</ul>
-</div>
-<div class="section" id="hints">
-<h1>Hints<a class="headerlink" href="#hints" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li>The line of code for changing the text of a UIButton is a little strange, so here it is:<ul>
-<li><code class="docutils literal notranslate"><span class="pre">`myButton.setTitle(&quot;X&quot;,</span> <span class="pre">forControlState:</span> <span class="pre">.normal)`</span></code></li>
-</ul>
-</li>
-<li>Once you connect one button to the view controller with an IBAction, you can control+drag the additional buttons to that same function</li>
-<li>Don’t forget:<ul>
-<li>If you change the name of the Main.storyboard, you need to change the Project Settings(Blue Icon at top of the Project Navigator)/(Make sure the first option under “Targets” is selected)/General /Deployment Info/Main Interface to the re-named storyboard</li>
-<li>Make sure your actions are connected properly or your app will crash! Remember to either right-click elements in the storyboard, or use the Connections Inspector in the Storyboard file (Right Pane, far-right symbol)</li>
-</ul>
-</li>
-</ul>
+</div></blockquote>
+<p>Hint: Don’t forget to add the property to the info.plist to “Allow arbitrary loads” - brownie points if you find out how to allow just the domain you use.</p>
+<p>A [list](<a class="reference external" href="https://github.com/toddmotto/public-apis">https://github.com/toddmotto/public-apis</a>) of public APIs (try to stick to ones that list “NO” under the Auth column, if it says API key, reach out and we can help you with that one too):</p>
+<p>Here’s a [link](<a class="reference external" href="https://youtu.be/O0VMl7obvH0">https://youtu.be/O0VMl7obvH0</a>) to the class video, which you may find useful to reference.</p>
 </div>
 
 
