@@ -10,4 +10,4 @@
 Here is the video of what we covered in class.
 
 ## Assignments
-Complete the Swift Persistence Assignment on Canvas.
+Complete the [Swift Persistence Assignment](../../assignments/swift-persistence.html) and submit it on Canvas.

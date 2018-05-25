@@ -44,7 +44,9 @@ Assignments
    assignments/autolayout
    assignments/my-first-swift-network-call
    assignments/collection-view-flash-card-app
-
+   assignments/container-view-flash-card-app
+   assignments/swift-persistence
+   assignments/my-split-view-page-view-controller
 
 Resources
 =========
