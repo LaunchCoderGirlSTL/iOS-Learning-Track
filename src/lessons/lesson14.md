@@ -3,10 +3,11 @@
 ## Learning Objectives
 * Understand HTTP
 * Ability to make simple network requests to public APIs
-* Ability to understand how data is formatted in order to parse it correctly in Swift 
+* Ability to understand how data is formatted in order to parse it correctly in Swift
 
 ## Prep Work
 
 ## In-class Work
+Here is the video of what we covered in class.
 
 ## Assignments

@@ -11,9 +11,14 @@ code {
     margin-right: 10px;
 }
 /* Trick to prevent section headings from hiding behind the navbar */
-.section { 
+.section {
     margin-top: -60px;
     padding-top: 60px;
+}
+/* Allow scrolling of dropdown - !NOT WORKING! */
+.dropdown-menu.globaltoc {
+  max-height: calc(100vh - 60px);
+  overflow: scroll;
 }
 
 /* Aside Boxes */
