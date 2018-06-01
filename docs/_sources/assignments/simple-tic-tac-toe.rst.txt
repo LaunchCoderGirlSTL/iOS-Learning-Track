@@ -1,3 +1,6 @@
+Simple Tic-Tac-Toe
+==================
+
 Objectives
 ----------
 
@@ -19,7 +22,7 @@ Hints
 - The line of code for changing the text of a UIButton is a little strange, so here it is:
 
   - ```myButton.setTitle("X", forControlState: .normal)```
-  
+
 - Once you connect one button to the view controller with an IBAction, you can control+drag the additional buttons to that same function
 - Don't forget:
 

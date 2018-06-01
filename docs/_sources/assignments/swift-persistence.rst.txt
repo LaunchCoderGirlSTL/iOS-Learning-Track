@@ -1,6 +1,10 @@
+Swift Persistence Assignment
+============================
+
 Objectives
 ----------
 This assignment will be to enhance an already working app. The design for enhancements is totally up to you - add features how you think they're best added.
+
 
 Requirements
 ------------
@@ -25,7 +29,6 @@ Ideas
    - Add settings for the text color or other font attributes
 
    - Add the ability to delete a user (make sure to clean up their persisted data!)
-
 
 
 Project to enhance

@@ -1,3 +1,6 @@
+Collection View Flash Card App
+==============================
+
 Objectives
 ----------
 
@@ -27,6 +30,6 @@ Hints
 
    - // You will use this to register a user tapping on a cell
 
-      - ```func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+      - ```func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {```
 
-      }```
+      ```}```

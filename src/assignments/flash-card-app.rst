@@ -1,4 +1,5 @@
-Make your own flash card app:
+Flash Card App
+==============
 
 Objective
 ---------
