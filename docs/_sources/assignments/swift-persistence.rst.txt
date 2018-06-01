@@ -27,4 +27,4 @@ Ideas
 Project to enhance
 ------------------
 
-The project you're enhancing can be found in the `Resources <../../resources.html>`_
+The project you're enhancing can be found in the `Resources <../../resources.html>`_ page.

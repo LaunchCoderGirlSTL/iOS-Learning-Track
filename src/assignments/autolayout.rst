@@ -17,7 +17,8 @@ Where everything is centered in both landscape and portrait.
 
 Real App Example
 ----------------
-[image here]
+.. image:: /_static/images/screenshot1.png
 
-Sketch of Layout:
-[image here]
+Sketch of Layout
+----------------
+.. image:: /_static/images/screenshot2.jpg
