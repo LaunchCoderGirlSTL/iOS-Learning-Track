@@ -14,4 +14,4 @@ Here is the video of what we covered in class.
 Read up to the beginning of the Collection Types section in the Swift Programming Language book linked below. Understand the reading through doing the experiments in the book and just trying out different things in the Xcode playground once it's installed.
 
 ## Resources
-* Swift Programming Language book (linked in Slack)
+* Swift Programming Language book (linked in [Resources page](../../resources/resources.html))

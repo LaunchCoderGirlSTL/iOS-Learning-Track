@@ -269,10 +269,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#books">Books</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a></li>
 </ul>
 </ul>
 </li>
@@ -306,41 +303,32 @@
 <h1>Collection View Flash Card App<a class="headerlink" href="#collection-view-flash-card-app" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="objectives">
 <h2>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
+<ul class="simple">
 <li>Become familiar with collection view delegate methods.</li>
 <li>Understand formatting tiles in a collection view using flow layouts.</li>
 <li>Becoming comfortable with creating collection views inside of a collection view controller and setting up delegate and data source to the view controller.</li>
 </ul>
-</div></blockquote>
 </div>
 <div class="section" id="requirements">
 <h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
+<ul class="simple">
 <li>Create a project that has a collection view with at least 10 cells</li>
-<li>Create your own custom UICollectionView cell ( These can be just a single label in the center or you can use an image view like we did in class. Or, come up with an entirely new design for your flash card cell).</li>
+<li>Create your own custom UICollectionView cell (These can be just a single label in the center or you can use an image view like we did in class. Or, come up with an entirely new design for your flash card cell).</li>
 <li>A user should be able to tap on a cell to “flip” the card to show the other side of the cell, similar to the MVC Flash Card app that you all have made.</li>
 <li>Bonus points if you’re able to use UI View Animations to transition between front and back of the card.</li>
 </ul>
-</div></blockquote>
 </div>
 <div class="section" id="hints">
 <h2>Hints<a class="headerlink" href="#hints" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul>
+<ul>
 <li><p class="first">Think about the data structure that well store the information for each of your cards, it might be valuable to create a struct for the front and back of your cell.</p>
 </li>
-<li><p class="first">// You will use this to register a user tapping on a cell</p>
-<blockquote>
-<div><ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">`func</span> <span class="pre">collectionView(_</span> <span class="pre">collectionView:</span> <span class="pre">UICollectionView,</span> <span class="pre">didSelectItemAt</span> <span class="pre">indexPath:</span> <span class="pre">IndexPath)</span> <span class="pre">{`</span></code></li>
-</ul>
-<p><code class="docutils literal notranslate"><span class="pre">`}`</span></code></p>
-</div></blockquote>
+<li><p class="first">You will use this to register a user tapping on a cell:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">func</span> <span class="n">collectionView</span><span class="p">(</span><span class="n">_</span> <span class="n">collectionView</span><span class="p">:</span> <span class="n">UICollectionView</span><span class="p">,</span> <span class="n">didSelectItemAt</span> <span class="n">indexPath</span><span class="p">:</span> <span class="n">IndexPath</span><span class="p">)</span> <span class="p">{</span><span class="o">...</span><span class="p">}</span>
+</pre></div>
+</div>
 </li>
 </ul>
-</div></blockquote>
 </div>
 </div>
 

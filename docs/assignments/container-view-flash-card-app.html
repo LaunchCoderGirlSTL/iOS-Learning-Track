@@ -269,10 +269,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../resources/resources.html#books">Books</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../resources/resources.html">Resources</a></li>
 </ul>
 </ul>
 </li>
@@ -306,63 +303,41 @@
 <h1>Container View Flashcard App<a class="headerlink" href="#container-view-flashcard-app" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="objectives">
 <h2>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
+<ul class="simple">
 <li>Understand the order of operations for adding and removing a child view controller from a container view</li>
 <li>Get to know gestures implemented from the storyboard</li>
 <li>Learn more about the layer property (CALayer) on a view and the style changes that can be made (see the end of the readme on Github for a good reference)</li>
 <li>Continue using MVC design pattern when expanding model logic</li>
 <li>Refresh your knowledge on table views and segues</li>
 </ul>
-</div></blockquote>
 </div>
 <div class="section" id="requirements">
 <h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
-<p>Build a better flashcard app!</p>
-<blockquote>
-<div><ul>
-<li><p class="first">Use the subclassed UIView ContainerView from the in class project</p>
-</li>
-<li><p class="first">Customize the ContainerView to appear like a card</p>
-<blockquote>
-<div><ul class="simple">
+<ul class="simple">
+<li>Use the subclassed UIView ContainerView from the in class project</li>
+<li>Customize the ContainerView to appear like a card<ul>
 <li>Rounded corners</li>
 <li>Border</li>
 <li>Drop shadow</li>
 </ul>
-</div></blockquote>
 </li>
-<li><p class="first">Feel free to use the PuppyData and RateMyPuppyModel classes from the base project from in class.</p>
-</li>
-<li><p class="first">Show the puppy image in the container view as the front side of the flashcard, with the image taking up the entire container view (as shown in class).</p>
-</li>
-<li><p class="first">Show the puppy image, name, and description on the other side of the flashcard. You will need to make the picture smaller in order to allow room for the labels for description and name. Use Autolayout to ensure the content fits in the container view by using constraints against Superview (not the default Safe Area).</p>
-</li>
-<li><p class="first">You will need to expand functionality on RateMyPuppyModel to complete the assignment.</p>
-<blockquote>
-<div><ul class="simple">
+<li>Feel free to use the PuppyData and RateMyPuppyModel classes from the base project from in class.</li>
+<li>Show the puppy image in the container view as the front side of the flashcard, with the image taking up the entire container view (as shown in class).</li>
+<li>Show the puppy image, name, and description on the other side of the flashcard. You will need to make the picture smaller in order to allow room for the labels for description and name. Use Autolayout to ensure the content fits in the container view by using constraints against Superview (not the default Safe Area).</li>
+<li>You will need to expand functionality on RateMyPuppyModel to complete the assignment.<ul>
 <li>Track the number of times each card is viewed</li>
-<li>find a way to allow the user to remove any card from the review list. This is up to you, but feel free to reach out to me if you’re stumped. The user should be allowed to remove all cards from review, leaving no flashcards left.</li>
+<li>Find a way to allow the user to remove any card from the review list. This is up to you, but feel free to reach out to me if you’re stumped. The user should be allowed to remove all cards from review, leaving no flashcards left.</li>
 </ul>
-</div></blockquote>
 </li>
-<li><p class="first">When the user has no flashcards left, segue to a new full-screen view controller (not a child view controller of the container view).</p>
-</li>
-<li><p class="first">The new full-screen view controller should contain a table view which shows the puppy name and number of times the card was viewed. If you want to, add a thumbnail of the puppy image to the cell as well.</p>
-<blockquote>
-<div><ul class="simple">
+<li>When the user has no flashcards left, segue to a new full-screen view controller (not a child view controller of the container view).</li>
+<li>The new full-screen view controller should contain a table view which shows the puppy name and number of times the card was viewed. If you want to, add a thumbnail of the puppy image to the cell as well.<ul>
 <li>BONUS: Consider embedding this controller in a navigation view controller so the user can return to the flashcard screen. Change the name of the ‘back’ button to ‘reset’. When returning from the table view, reinstate all flashcards and reset the tracking.</li>
 </ul>
-</div></blockquote>
 </li>
-<li><p class="first">Use the swipe gesture to move between cards.</p>
-</li>
-<li><p class="first">Use the tap gesture to flip the card.</p>
-</li>
-<li><p class="first">Use double tap to trigger the report segue early.</p>
-</li>
+<li>Use the swipe gesture to move between cards.</li>
+<li>Use the tap gesture to flip the card.</li>
+<li>Use double tap to trigger the report segue early.</li>
 </ul>
-</div></blockquote>
 </div>
 </div>
 
