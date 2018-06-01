@@ -8,5 +8,7 @@
 ## Prep Work
 
 ## In-class Work
+Here is the video of what we covered in class.
 
 ## Assignments
+Complete the [Container View Flashcard App](../../assignments/container-view-flash-card-app.html) assignment and submit it on Canvas.

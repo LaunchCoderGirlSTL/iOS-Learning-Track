@@ -8,5 +8,7 @@
 ## Prep Work
 
 ## In-class Work
+Here is the video of what we covered in class.
 
 ## Assignments
+Complete the [Autolayout Assignment](../../assignments/autolayout.html) on Canvas. Work on the [My First Swift Network Call](../../assignments/my-first-swift-network-call.html) assignment as well, it's due in a week and a half.
