@@ -2,3 +2,6 @@
 _build/
 .vscode
 __pycache__
+!.nojekyll
+.pyc
+__pycache__/

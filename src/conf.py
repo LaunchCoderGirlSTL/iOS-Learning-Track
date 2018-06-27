@@ -8,7 +8,7 @@ from recommonmark.transform import AutoStructify
 site_theme_options = {
     'navbar_title': 'CoderGirl iOS',
     'navbar_site_name': "Pages",
-    'bootswatch_theme': 'launchcode',
+    'bootswatch_theme': 'codergirl',
 }
 
 project = 'CoderGirl'
@@ -146,7 +146,10 @@ html_static_path = ['_static']
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-# html_sidebars = {}
+html_sidebars = {
+    '**': ['localtoc.html'],
+    'index': []
+}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
