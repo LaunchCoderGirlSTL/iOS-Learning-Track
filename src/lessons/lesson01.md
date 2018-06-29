@@ -5,9 +5,11 @@
 * Understand a basic history of Swift and iOS as a technology
 
 ## Prep Work
+Install XCode and download the book on Swift below before coming to class.
+
 
 ## In-class Work
-Here is the video of what we covered in class.
+We will be getting to know each other and starting to learn more about Swift.
 
 
 ## Assignment
