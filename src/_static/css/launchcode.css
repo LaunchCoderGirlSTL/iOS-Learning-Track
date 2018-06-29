@@ -15,11 +15,9 @@ code {
     margin-top: -60px;
     padding-top: 60px;
 }
-<<<<<<< HEAD
-/* Allow scrolling of dropdown - !NOT WORKING! */
-=======
+
 /* Allow scrolling of dropdown */
->>>>>>> upstream/master
+
 .dropdown-menu.globaltoc {
   max-height: calc(100vh - 60px);
   overflow: scroll;
@@ -185,4 +183,3 @@ div.topic {
     border-radius: 5px;
     padding: 7px;
 }
-
