@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/css/launchcode.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
@@ -340,10 +340,10 @@
 <li><p class="first">Don’t forget to add a cellIdentifier and segueIdentifier to the prototype cell on the table view, and the segue, respectively</p>
 </li>
 <li><p class="first">Think of ways to make your code easier to read by using MARKS, and putting code you can group together in extensions, like this:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">MARK</span> <span class="o">-</span> <span class="n">tableView</span> <span class="n">dataSource</span>
-<span class="n">extension</span> <span class="n">UIViewController</span><span class="p">:</span> <span class="n">tableViewDataSource</span> <span class="p">{</span>
-   <span class="o">...</span>
-<span class="p">}</span>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>//MARK - tableView dataSource
+extension UIViewController: tableViewDataSource {
+   ...
+}
 </pre></div>
 </div>
 </li>
@@ -361,10 +361,15 @@
     <p class="pull-right">
       <a href="#">Back to top</a>
       
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../_sources/assignments/swift-syntax.rst.txt"
+     rel="nofollow">Page Source</a>
+</div>
+      
     </p>
     <p>
-        &copy; Copyright 2018, LaunchCode.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.<br/>
     </p>
   </div>
 </footer>
