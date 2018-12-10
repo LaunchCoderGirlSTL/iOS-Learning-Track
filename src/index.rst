@@ -3,6 +3,13 @@ Course Overview
 
 Programming for iOS allows you to create an app that can be run on Apple mobile devices. This course will start with an introduction to iOS and Swift, the programming language used for iOS programming, and build up to the details of app design and development. If you're looking to turn an app idea into a reality or just take a peek behind-the-scenes of mobile applications, this track is for you.
 
+About Us
+========
+.. toctree::
+   :maxdepth: 1
+
+   about
+
 Lessons
 =======
 
